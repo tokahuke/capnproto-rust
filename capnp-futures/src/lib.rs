@@ -20,16 +20,14 @@
 
 extern crate byteorder;
 extern crate capnp;
-
-#[macro_use]
 extern crate futures;
 
 #[cfg(test)]
 extern crate quickcheck;
 
-pub use read_stream::ReadStream;
-pub use write_queue::{write_queue, Sender, WriteQueue};
+//pub use read_stream::ReadStream;
+//pub use write_queue::{write_queue, Sender, WriteQueue};
 
 pub mod serialize;
-mod read_stream;
-mod write_queue;
+//mod read_stream;
+//mod write_queue;
